@@ -1,0 +1,6 @@
+namespace: sandbox
+
+resources:
+  - namespace.yaml
+  - pvc.yaml
+  - pod.yaml

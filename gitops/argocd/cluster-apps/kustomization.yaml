@@ -1,0 +1,3 @@
+resources:
+  - cluster-apps-project.yaml
+  - minecraft
