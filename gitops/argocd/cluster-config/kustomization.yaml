@@ -5,4 +5,4 @@ resources:
   - argocd
   - external-secrets
   - cloudflare
-  # - longhorn
+  - longhorn
