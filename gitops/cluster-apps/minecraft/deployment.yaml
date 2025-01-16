@@ -34,6 +34,10 @@ spec:
               value: "survival"
             - name: MOTD
               value: "Welcome my fwends, time to cwaft"
+            - name: TYPE
+              value: "PURPUR"
+            - name: PURPUR_BUILD
+              value: "2358"
           ports:
             - containerPort: 25565
               name: minecraft
