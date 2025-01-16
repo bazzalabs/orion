@@ -1,15 +1,15 @@
 apiVersion: networking.cfargotunnel.com/v1alpha1
 kind: ClusterTunnel
 metadata:
-  name: avelin
+  name: orion
   annotations:
-    argocd.argoproj.io/sync-wave: "210"
+    argocd.argoproj.io/sync-wave: "209"
 spec:
   newTunnel:
-    name: hetzner-k0s-avelin-tunnel # Name of your new tunnel on Cloudflare
+    name: orion-k3s-tunnel # Name of your new tunnel on Cloudflare
   size: 2 # This is the number of replicas for cloudflared
   cloudflare:
     email: bazarjani.kian@gmail.com
-    domain: avelin.app
+    domain: bazza.dev
     secret: cloudflare-secret
     accountId: 1787e9f04a8eb611129f0945fa802ce8
