@@ -8,6 +8,8 @@ spec:
     env:
       - name: ARGOCD_CLUSTER_CONFIG_NAMESPACES
         value: argocd
+      - name: ARGOCD_SYNC_WAVE_DELAY
+        value: 10
   channel: alpha
   name: argocd-operator
   source: argocd-catalog
