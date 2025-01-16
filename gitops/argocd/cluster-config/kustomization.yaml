@@ -1,0 +1,8 @@
+namespace: argocd
+
+resources:
+  - cluster-config-project.yaml
+  - argocd
+  - external-secrets
+  - cloudflare
+  # - longhorn

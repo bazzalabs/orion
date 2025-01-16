@@ -1,0 +1,7 @@
+namespace: cloudflare-operator-system
+
+resources:
+  - github.com/adyanth/cloudflare-operator/config/default?ref=v0.10.4
+  - cloudflare-externalsecret.yaml
+  - lab-clustertunnel.yaml
+  - avelin-clustertunnel.yaml

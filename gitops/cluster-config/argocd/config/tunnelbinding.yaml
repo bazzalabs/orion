@@ -1,0 +1,15 @@
+apiVersion: networking.cfargotunnel.com/v1alpha1
+kind: TunnelBinding
+metadata:
+  name: argocd
+subjects:
+  - kind: Service
+    name: argocd-server
+    spec:
+      fqdn: gitops.orion.lab.bazza.dev
+      protocol: http
+      target: http://argocd-server.argocd.svc.cluster.local
+tunnelRef:
+  kind: ClusterTunnel
+  name: orion
+  disableDNSUpdates: false

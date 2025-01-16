@@ -1,0 +1,4 @@
+resources:
+  - argocd-operator-application.yaml
+  - argocd-instance-application.yaml
+  - argocd-config-application.yaml

@@ -1,0 +1,5 @@
+resources:
+  - ../../gitops/cluster-config/argocd/operator
+  - ../../gitops/cluster-config/argocd/instance
+  - namespace.yaml
+  - doppler-cluster-token-secret.yaml
