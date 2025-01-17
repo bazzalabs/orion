@@ -36,8 +36,8 @@ spec:
               value: "Welcome my fwends, time to cwaft"
             - name: TYPE
               value: "PURPUR"
-            - name: PURPUR_BUILD
-              value: "2358"
+            - name: VERSION
+              value: "1.21.3"
           ports:
             - containerPort: 25565
               name: minecraft
