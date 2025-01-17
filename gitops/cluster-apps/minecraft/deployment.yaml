@@ -38,6 +38,8 @@ spec:
               value: "PURPUR"
             - name: VERSION
               value: "1.21.3"
+            - name: "USE_AIKAR_FLAGS"
+              value: "TRUE"
           ports:
             - containerPort: 25565
               name: minecraft
