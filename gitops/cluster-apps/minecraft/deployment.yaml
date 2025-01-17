@@ -26,7 +26,7 @@ spec:
             limits:
               memory: 8Gi
             requests:
-              memory: 4Gi
+              memory: 8Gi
           env:
             - name: EULA
               value: "TRUE"
@@ -40,6 +40,8 @@ spec:
               value: "1.21.4"
             - name: "USE_AIKAR_FLAGS"
               value: "TRUE"
+            - name: MEMORY
+              value: "7G"
           ports:
             - containerPort: 25565
               name: minecraft
