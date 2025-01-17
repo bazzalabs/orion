@@ -9,6 +9,6 @@ spec:
   type: NodePort
   ports:
     - port: 25565
-      nodePort: 35565
+      nodePort: 31565
   selector:
     app: minecraft-server
