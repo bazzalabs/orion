@@ -6,9 +6,11 @@ metadata:
   labels:
     app: minecraft-server
 spec:
-  type: ClusterIP
+  type: NodePort
   ports:
     - port: 25565
-      protocol: UDP
+      protocol: TCP
+      targetPort: 25565
+      nodePort: 30065
   selector:
     app: minecraft-server
