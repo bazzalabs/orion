@@ -6,9 +6,9 @@ subjects:
   - kind: Service
     name: minecraft-server
     spec:
-      fqdn: play.bazza.dev
-      protocol: udp
-      target: udp://minecraft-server.minecraft.svc.cluster.local:25565
+      fqdn: k8s.play.bazza.dev
+      protocol: tcp
+      target: tcp://minecraft-server.minecraft.svc.cluster.local:25565
 tunnelRef:
   kind: ClusterTunnel
   name: orion
