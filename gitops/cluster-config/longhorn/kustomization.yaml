@@ -2,3 +2,4 @@ namespace: longhorn-system
 
 resources:
   - longhorn-gcp-backups-externalsecret.yaml
+  - longhorn-storageclass.yaml
