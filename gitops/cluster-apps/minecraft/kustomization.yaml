@@ -4,5 +4,4 @@ resources:
   - namespace.yaml
   - pvc.yaml
   - service.yaml
-  - deployment.yaml
-  - tunnelbinding.yaml
+  - data-transfer-pod.yaml
