@@ -38,10 +38,13 @@ spec:
               value: "PURPUR"
             - name: VERSION
               value: "1.21.4"
-            - name: "USE_AIKAR_FLAGS"
+            - name: USE_AIKAR_FLAGS
               value: "TRUE"
             - name: MEMORY
               value: "7G"
+            - name: OPS
+              value: |
+                bazzadev
           ports:
             - containerPort: 25565
               name: minecraft
