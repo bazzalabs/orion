@@ -1,2 +1,3 @@
 resources:
   - longhorn-helm-application.yaml
+  - longhorn-config-application.yaml
