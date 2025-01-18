@@ -4,4 +4,3 @@ resources:
   - namespace.yaml
   - pvc.yaml
   - service.yaml
-  - data-transfer-pod.yaml
