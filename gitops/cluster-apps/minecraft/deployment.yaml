@@ -45,6 +45,10 @@ spec:
             - name: OPS
               value: |
                 bazzadev
+            - name: MODRINTH_PROJECTS
+              value: |
+                chunky:1.4.28
+
           ports:
             - containerPort: 25565
               name: minecraft
