@@ -1,0 +1,15 @@
+apiVersion: networking.cfargotunnel.com/v1alpha1
+kind: TunnelBinding
+metadata:
+  name: api-svc-binding
+subjects:
+  - kind: Service
+    name: avelin-api-svc
+    spec:
+      fqdn: api.avelin.app
+      protocol: http
+      target: http://avelin-api-svc.avelin.svc.cluster.local
+tunnelRef:
+  kind: ClusterTunnel
+  name: avelin
+  disableDNSUpdates: false

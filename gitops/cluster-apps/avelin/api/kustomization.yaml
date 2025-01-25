@@ -1,0 +1,6 @@
+namespace: avelin
+
+resources:
+  - api-svc.yaml
+  - api-deploy.yaml
+  - api-tunnelbinding.yaml

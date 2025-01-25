@@ -1,0 +1,15 @@
+apiVersion: networking.cfargotunnel.com/v1alpha1
+kind: ClusterTunnel
+metadata:
+  name: avelin
+  annotations:
+    argocd.argoproj.io/sync-wave: "209"
+spec:
+  newTunnel:
+    name: orion-k3s-avelin-tunnel
+  size: 2
+  cloudflare:
+    email: bazarjani.kian@gmail.com
+    domain: avelin.app
+    secret: cloudflare-secret
+    accountId: 1787e9f04a8eb611129f0945fa802ce8

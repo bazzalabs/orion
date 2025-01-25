@@ -4,3 +4,4 @@ resources:
   - github.com/adyanth/cloudflare-operator/config/default?ref=v0.10.4
   - cloudflare-externalsecret.yaml
   - orion-clustertunnel.yaml
+  - avelin-clustertunnel.yaml

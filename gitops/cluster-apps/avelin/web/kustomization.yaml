@@ -1,0 +1,6 @@
+namespace: avelin
+
+resources:
+  - web-svc.yaml
+  - web-deploy.yaml
+  - web-tunnelbinding.yaml
