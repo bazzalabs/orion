@@ -29,9 +29,5 @@ spec:
                 name: avelin-config
             - secretRef:
                 name: oauth-secret
-          env:
-            - name: DATABASE_URL
-              valueFrom:
-                secretKeyRef:
-                  name: db-secret
-                  key: DATABASE_URL
+            - secretRef:
+                name: db-secret
