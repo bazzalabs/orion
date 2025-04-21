@@ -5,6 +5,7 @@ metadata:
   namespace: minecraft
 spec:
   storageClassName: longhorn
+  volumeName: pvc-068f462b-fa98-4108-8164-39a78c7e4d14
   accessModes:
     - ReadWriteOnce
   resources:
